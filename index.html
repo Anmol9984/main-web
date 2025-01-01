@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Institution</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+<header>
+    <img src="./icssr-logo.png" alt="Institution Logo">
+   
+    <div class="institute-info">
+        <span class="institute-name-hindi">भारतीय सामाजिक विज्ञान अनुसंधान परिषद</span>
+        <span class="institute-name">Indian Council of Social Science Research</span>
+        <span class="ministry"> शिक्षा मंत्रालय | Ministry of Education</span>
+        <span class="address"> Arun Asif Ali Marg, New Delhi-110067</span>
+    </div>
+    <div class="center-img">
+        <img src="./download.png" alt="Indian Emblem">
+    </div>
+    <nav>
+        <a href="#"></a>
+        <a href="#"></a>
+        <!-- Add more buttons as needed -->
+    </nav>
+</header>
+
+<div class="banner">
+    <h1 id="banner-title">SPECIAL CALL DIVISION</h1>
+</div>
+
+<div class="details-box">
+    <h2>Search Details</h2>
+    <label for="project-select"></label>
+    <select id="project-select" class="input-box">
+        <option value="">--Please choose an option--</option>
+        <option value="Short-term Empirical">Short-term Empirical</option>
+        <option value="Longitudinal">Longitudinal</option>
+        <option value="Vision Viksit Bharat@2047">Vision Viksit Bharat@2047</option>
+    </select>
+    <input type="text" id="name" class="input-box" placeholder="Name" disabled>
+    <span class="or-text">OR</span>
+    <input type="text" id="fileNo" class="input-box" placeholder="File No." disabled>
+    <button id="get-details-btn" disabled>Get Details</button>
+</div>
+
+<div id="project-details" class="project-details">
+    <!-- Project details will be displayed here -->
+</div>
+
+<script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
